@@ -1,0 +1,87 @@
+body {
+    margin: 20px 0;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.image img {
+    width: fit-content;
+}
+
+.copy {
+    margin: 0 auto;
+    width: 770px;
+    height: 364px;
+    background-image: url(/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.9);
+    padding: 105px 100px;
+}
+
+.copy .container {
+    font-weight: 100;
+    font-size: 24px;
+    margin: 10px;
+    margin-right: 30%;
+    vertical-align: middle;
+    height: 100%;
+}
+
+ h1,
+ h3,
+ h6 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(172, 104, 235);
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+h6 {
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: medium;
+    font-weight: 100;
+    color: white;
+}
+
+input {
+    height: 44px;
+    border-width: 0;
+    border-radius: 3px;
+}
+
+.m {
+    text-indent: 10px;
+    width: 300px;
+}
+
+.b {
+    width: 157px;
+    background-color: rgb(172, 104, 235);
+    color: white;
+    font-weight: 700;
+}
+
+i {
+    color: white;
+}
